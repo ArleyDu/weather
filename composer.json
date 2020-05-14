@@ -1,0 +1,26 @@
+{
+    "name": "arleydu/weather",
+    "authors": [
+        {
+            "name": "arleydu",
+            "email": "arleydu@163.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "phpunit/phpunit": "^8.5",
+        "mockery/mockery": "^1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "ArleyDu\\Weather\\": "./src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ArleyDu\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
